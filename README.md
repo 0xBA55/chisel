@@ -1,7 +1,13 @@
 # chisel - linux_amd64
 # Otras versiones -> https://github.com/jpillora/chisel/releases
 Con este binario de chisel para  linux x64 podemos realizar un port forwarding desde una maquina a la que tengamos acceso, redireccionando los puertos y pudiendo acceder a su intranet desde nuestra maquina local
-El binario no necesita compilacion ni instalacion, es Plug&Play. Para establecer un port forwarding seguiremos los siguientes comandos.
+El binario no necesita compilacion ni instalacion, es Plug&Play. 
+
+Lo primero es extraer el binario.
+
+    gunzip chisel_1.8.1_linux_amd64.gz
+
+Para establecer un port forwarding seguiremos los siguientes comandos.
 
 Maquina local(host):
 
